@@ -7,39 +7,39 @@
 
 ## Description 📃
 
-
+Challenge week 14, create a tech-blog, and follow a MVC model. With the back-end and front-end connect, user can create their account, login, make post, comment on post, view others' posts.
 
 ## Screenshot 📷
 
-Click on the screenshot to view my terminal walkthrough video 👇
+
 
 [![]()]()
 
-Click on the screenshot to view my Insomnia walkthrough video 👇
+
 
 [![]()]()
 
-## Installation 🔧
-
-Run this command to install dependencies
-```console
-npm i
-```
-Then, use .env.EXAMPLE to set up your connection with the database.
-
-NOTE: setup the database with the schema.sql file
 ## Usage 
 
-Start:
-
-```console
-npm run start
-```
+Visit the app [here](https://techblogwk14.herokuapp.com/)
 
 ## Dependencies 📦
 
+- bcrypt
+- connect-session-sequelize
+- dotenv
+- express
+- express-handlebars
+- express-session
+- handlebars
+- mysql2
+- sequelize
 
-  
+## TODO !
+- Create a front-end: make all the views using handlebars
+- finish the dashboardRoutes
+
+
 ## License 🔑
 
 This project is licensed under the [MIT](LICENSE) license
